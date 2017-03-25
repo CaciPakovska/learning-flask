@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  return "<h2>Здраво Вилиasdпчеееее</h2><br><img src='static\img\\filipche.jpg'/>"
+  return "<h2>Здраво Вилипчеееее</h2><br><img src='static\img\\filipche.jpg'/>"
 
 @app.route("/about")
 def about():
