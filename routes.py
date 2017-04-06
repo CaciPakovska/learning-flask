@@ -12,7 +12,7 @@ def about():
 
 @app.route('/shpetim')
 def shpetim():
-	return "novo"
+	return "novo uste"
 
 
 if __name__ == "__main__":
