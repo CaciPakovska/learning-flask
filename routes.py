@@ -10,5 +10,10 @@ def index():
 def about():
   return "Aloha!"
 
+@app.route('/shpetim')
+def shpetim():
+	return "novo"
+
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0')
